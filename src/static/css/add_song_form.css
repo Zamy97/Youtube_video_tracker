@@ -20,13 +20,15 @@ input {
 		#text-input {
 			width: 350px;
 			padding: 15px;
-      padding-top: 20px;
 			border-radius: 50px;
 			outline: none;
 			border: none;
 			transition: all, 1s;
 			font-size: 25px;
 		}
+.add_song {
+  padding-top: 100px;
+}
 		#text-input:focus {
 			width: 300px;
 		}
