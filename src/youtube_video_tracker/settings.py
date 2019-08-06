@@ -27,12 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-STATICFILES_DIRS = [
-    "/Users/zamy/Desktop/Python_Projects/youtube_video_tracker/src/static"
-
-]
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -123,3 +117,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    # '/var/www/static/',
+]
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")

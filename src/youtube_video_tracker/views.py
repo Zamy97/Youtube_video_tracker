@@ -6,5 +6,4 @@ def home_page(request):
     return render(request, "home_view.html", context)
 
 def login_form(request):
-    context = {"login form"}
-    return render(request, "login_form.html", context)
+    return render(request, "login_form.html", {"title": "Log In"})
