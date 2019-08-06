@@ -1,10 +1,12 @@
 {% extends "base_view.html" %}
 
 {% block content %}
-<div class="container_main">
-      	 	<div class="container">
+<!-- {% block head_title %} -->
+
+<div class="container_main_1">
+      	 	<div class="container_2">
             <div class="formcontainer">
-              <form onsubmit="sendSMS(this); return false;">
+              <!-- <form onsubmit="sendSMS(this); return false;"> -->
         			  <input id="text-input" name="phone" type="tel" placeholder="Link/URL..." />
         			  <br/>
 
@@ -13,9 +15,10 @@
                 <hr/>
         			  <input id="button-input" type="submit"/>
 
-        		  </form>
+        		  <!-- </form> -->
             </div>
           </div>
 </div>
 
+<!-- {% endblock %} -->
 {% endblock %}
