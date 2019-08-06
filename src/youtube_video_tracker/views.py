@@ -7,3 +7,6 @@ def home_page(request):
 
 def login_form(request):
     return render(request, "login_form.html", {"title": "Log In"})
+
+def add_song_form(request):
+    return render(request, "add_song_form.html", {"title": "Add Song"})
