@@ -1,0 +1,13 @@
+{% extends "base_view.html" %}
+
+{% block content %}
+<!-- <body> -->
+  <canvas id="canvas"></canvas>
+    <div id="login-box"><img class="profile" src="https://img.icons8.com/bubbles/2x/user.png" alt="User" />
+        <h2>Log in here</h2>
+        <form name="myForm" onsubmit="return validateForm();" method="post">
+            <p>Emali</p><input type="text" name="email" placeholder="Enter Your Eamil" required="required" />
+            <p>Password</p><input type="password" name="Password" placeholder="• • • • • • • • • •" required="required" /><input type="submit" onclick="checkEmail();" value="Sign In" /><a href="#">Forget Password</a></form>
+    </div>
+<!-- </body> -->
+{% endblock %}
