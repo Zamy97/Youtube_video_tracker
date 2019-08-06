@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATICFILES_DIRS = [
+    "/Users/zamy/Desktop/Python_Projects/youtube_video_tracker/src/static"
+
+]
+
 
 # Application definition
 
