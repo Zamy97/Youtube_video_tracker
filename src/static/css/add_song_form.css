@@ -20,6 +20,7 @@ input {
 		#text-input {
 			width: 350px;
 			padding: 15px;
+      padding-top: 20px;
 			border-radius: 50px;
 			outline: none;
 			border: none;
