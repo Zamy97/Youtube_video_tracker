@@ -5,7 +5,8 @@ from django.urls import path
 from .views import (
     home_page,
     login_form,
-    add_song_form
+    add_song_form,
+    signup_form,
 )
 
 urlpatterns = [
@@ -13,6 +14,7 @@ urlpatterns = [
     path('', home_page),
     path('login/', login_form),
     path('add_song/', add_song_form),
+    path('register/', signup_form),
 ]
 
 if settings.DEBUG:
