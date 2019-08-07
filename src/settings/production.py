@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = 'xj=dktgr9*w-))a8*nqwbui9(calwglwc8wn#qfrh=w@3xb)_='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['youtube-video-tracker.herokuapp.com']
 
 # Application definition
 
