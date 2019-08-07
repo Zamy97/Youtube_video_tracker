@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'youtube_video_tracker.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'src/youtube_video_tracker.settings')
 
 application = get_wsgi_application()
