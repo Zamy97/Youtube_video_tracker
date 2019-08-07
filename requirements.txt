@@ -24,3 +24,4 @@ virtualenv-clone==0.5.3
 virtualenvwrapper==4.8.4
 Werkzeug==0.15.5
 wikipedia==1.4.0
+django-crispy-forms
