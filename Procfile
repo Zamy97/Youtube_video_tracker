@@ -1,1 +1,1 @@
-web: gunicorn youtube_video_tracker.wsgi
+web: gunicorn site:youtube_video_tracker.wsgi
